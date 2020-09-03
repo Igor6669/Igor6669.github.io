@@ -1,0 +1,46 @@
+img{
+    padding-bottom: 5px;
+}
+
+span {
+    color: white;
+}
+
+
+#visorCronometro{
+    background: url('Nova pasta/BraveBlobAssetPack/Sprites/UI/Buttons/UI_Button.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+}
+
+#tempoCronometro{
+    text-align: center;
+    color: white;
+}
+
+#visor-meteoros{
+    background: url('Nova pasta/BraveBlobAssetPack/Sprites/UI/Buttons/UI_Button.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#meteoros-restantes{
+    color: white;
+
+}
+
+.panel-button{
+    display: flex;
+    flex-direction: column;
+}
+
+canvas{
+    width: 100%;
+    background: url("Nova pasta/BraveBlobAssetPack/Sprites/background/PlanetBackground.png");
+    background-position: center;
+    background-size: cover ;
+}

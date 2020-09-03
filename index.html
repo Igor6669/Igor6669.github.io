@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type='text/css' href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id='gameContainer' class='container-fluid'>
+        <div id='Topo' class='row'>
+
+
+        </div>
+        <div id='sidebar' class='row'>
+            <div class='col-1 d-flex flex-column align-items-center justify-content-between'>
+                <div id='cronometro' class='panel-button'>
+                    <img src='Nova pasta/BraveBlobAssetPack/Sprites/UI/UI_Clock.png' width=50>
+                    <div id='visorCronometro'>
+                        <span id='cronometro-seg'>15</span>:<span id='cronometro-mili'>00</span>
+                    </div>
+                </div>
+
+                <div id='meteoros' class='parel-button flex-fill'>
+                    <img src='Nova pasta/BraveBlobAssetPack/Sprites/Rocks/FireRock2.png' width=50>
+                    <div id='visor-meteoros'>
+                        <span id='meteoros-restantes'>15</span>
+                    </div>
+
+                </div>
+
+                <div id='Buttons' class='panel-button flex-fill'>
+                    <img src='Nova pasta/BraveBlobAssetPack/Sprites/UI/Buttons/UI_PlayButton.png' width=50>
+                    <img src='Nova pasta/BraveBlobAssetPack/Sprites/UI/Buttons/UI_ExitButton.png' width=50>
+                    <img src='Nova pasta/BraveBlobAssetPack/Sprites/UI/Buttons/UI_MenuButton.png' width=50>
+                </div>
+            </div>
+            <div></div>
+            <div id='TelaPrincipal' class='col-10'>
+                <canvas id='canvasPrincipal'>
+
+                </canvas>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script type='module' src='script.js'></script>
+</body>
+
+</html>
